@@ -14,8 +14,8 @@ def get_weather(api_key, city):
         return None
 
 if __name__ == "__main__":
-    api_key = 'YOUR_API_KEY_HERE'  # Replace this with your actual API key
-    city = 'London'  # Example city
+    api_key = '<YOUR_API_KEY_HERE>'  # Replace this with your actual API key
+    city = 'Melbourne'  # Example city
     weather = get_weather(api_key, city)
     if weather:
         print(f"Current temperature in {city}: {weather['main']['temp']}°C")
