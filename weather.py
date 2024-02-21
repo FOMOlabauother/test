@@ -37,6 +37,6 @@ if __name__ == "__main__":
     city = 'Melbourne'  # Example city
     weather = get_weather(api_key, city)
     if weather:
-        print(f"Current temperature in {city}: {weather['main']['temp']}°C")
+        logger.info(f"Current temperature in {city}: {weather['main']['temp']}°C")
     else:
-        print("Failed to retrieve the weather data.")
+        logger.info("Failed to retrieve the weather data.")
