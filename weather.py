@@ -33,6 +33,7 @@ if __name__ == "__main__":
     setup_logging()
     
     logger.info("Starting weather reporter...")                
+    
     api_key = '<YOUR_API_KEY_HERE>'  # Replace this with your actual API key
     city = 'Melbourne'  # Example city
     weather = get_weather(api_key, city)
