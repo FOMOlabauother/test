@@ -1,5 +1,5 @@
-from loguru import logger
 import requests
+from loguru import logger
 
 def get_weather(api_key, city):
     base_url = "http://api.openweathermap.org/data/2.5/weather"
